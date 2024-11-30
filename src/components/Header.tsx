@@ -18,7 +18,7 @@ const Left = styled.div`
   display: flex;
   justify-content: left;
   align-items: flex-start;
-`
+`;
 
 const Right = styled.div`
   width: 50%;
@@ -26,7 +26,7 @@ const Right = styled.div`
   display: flex;
   justify-content: right;
   align-items: flex-end;
-`
+`;
 
 function Header() {
   return (

@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 
 import { colors } from '../constants';
 
+import Experience from './Experience';
 import Header3 from './common/Header3';
 
 const BodyInner = styled.div`
@@ -21,11 +22,7 @@ const Left = styled.div`
   justify-content: left;
 
   border-right: 1px ${colors.lightBlack} solid;
-`
-
-const Divider = styled.div`
-  border-bottom: 1px ${colors.lightBlack} solid;
-`
+`;
 
 const Right = styled.div`
   width: 30%;
@@ -35,17 +32,13 @@ const Right = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: left;
-`
+`;
 
 function Body() {
   return (
     <BodyInner>
       <Left>
-        <Header3>TECHNICAL EXPERIENCE</Header3>
-
-        <Divider />
-
-        <Header3>PERSONAL PROJECTS</Header3>
+        <Experience />
       </Left>
 
       <Right>

@@ -12,6 +12,7 @@ injectGlobal`
     color: ${colors.black};
     background-color: ${colors.white};
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
     font-weight: 100;
   }
 
@@ -19,9 +20,9 @@ injectGlobal`
     margin: 0;
   }
 
-  p {
+  p i {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 100;
   }
 `;

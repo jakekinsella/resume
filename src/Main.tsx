@@ -23,13 +23,13 @@ const HeaderContainer = styled.div`
   padding-bottom: 5px;
 
   border-bottom: 1px ${colors.lightBlack} solid;
-`
+`;
 
 const BodyContainer = styled.div`
   height: 91.5%;
 
   margin-top: 1%;
-`
+`;
 
 function Main() {
   return (
