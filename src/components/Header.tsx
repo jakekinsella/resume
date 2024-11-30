@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
 
+import Header1 from './common/Header1';
+import Header2 from './common/Header2';
+
 const HeaderInner = styled.div`
   width: 98%;
   padding-left: 1%;
@@ -14,13 +17,8 @@ const Left = styled.div`
 
   display: flex;
   justify-content: left;
+  align-items: flex-start;
 `
-
-const FullName = styled.h1`
-  font-family: 'Roboto Slab', serif;
-  font-size: 48px;
-  font-weight: 500;
-`;
 
 const Right = styled.div`
   width: 50%;
@@ -30,21 +28,15 @@ const Right = styled.div`
   align-items: flex-end;
 `
 
-const Title = styled.h2`
-  font-family: 'Roboto', sans-serif;
-  font-size: 32px;
-  font-weight: 500;
-`;
-
 function Header() {
   return (
     <HeaderInner>
       <Left>
-        <FullName>Jake Kinsella</FullName>
+        <Header1>Jake Kinsella</Header1>
       </Left>
 
       <Right>
-        <Title>SOFTWARE ENGINEER</Title>
+        <Header2>SOFTWARE ENGINEER</Header2>
       </Right>
     </HeaderInner>
   );
