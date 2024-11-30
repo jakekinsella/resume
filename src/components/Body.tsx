@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { colors } from '../constants';
 
 import Experience from './Experience';
+import Other from './Other';
 import Header3 from './common/Header3';
 
 const BodyInner = styled.div`
@@ -42,13 +43,7 @@ function Body() {
       </Left>
 
       <Right>
-        <Header3>CONTACT</Header3>
-
-        <Header3>EDUCATION</Header3>
-
-        <Header3>DEV SKILLS</Header3>
-
-        <Header3>INTERESTS</Header3>
+        <Other />
       </Right>
     </BodyInner>
   );

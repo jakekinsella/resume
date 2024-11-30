@@ -5,27 +5,32 @@ import Header1 from './common/Header1';
 import Header2 from './common/Header2';
 
 const HeaderInner = styled.div`
+  height: 100%;
   width: 98%;
   padding-left: 1%;
   padding-right: 1%;
 
   display: flex;
+  align-items: flex-end;
 `;
 
 const Left = styled.div`
-  width: 50%;
+  height: 100%;
+  width: 56%;
 
   display: flex;
   justify-content: left;
-  align-items: flex-start;
+  align-items: flex-end;
+  vertical-align: bottom;
 `;
 
 const Right = styled.div`
-  width: 50%;
+  width: 44%;
 
   display: flex;
+  flex-direction: column;
   justify-content: right;
-  align-items: flex-end;
+  align-items: flex-start;
 `;
 
 function Header() {
@@ -36,7 +41,8 @@ function Header() {
       </Left>
 
       <Right>
-        <Header2>SOFTWARE ENGINEER</Header2>
+        <Header2>SR. SOFTWARE ENGINEER</Header2>
+        <Header2>TEAM LEAD</Header2>
       </Right>
     </HeaderInner>
   );

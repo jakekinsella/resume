@@ -19,14 +19,14 @@ const Container = styled.div`
 `;
 
 const HeaderContainer = styled.div`
-  height: 7.5%;
+  height: 6%;
   padding-bottom: 5px;
 
   border-bottom: 1px ${colors.lightBlack} solid;
 `;
 
 const BodyContainer = styled.div`
-  height: 91.5%;
+  height: 93%;
 
   margin-top: 1%;
 `;
