@@ -15,7 +15,10 @@ const Paper = styled.div`
 
 const Container = styled.div`
   height: 94.5%;
-  padding: 3%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 `;
 
 const HeaderContainer = styled.div`
@@ -27,6 +30,8 @@ const HeaderContainer = styled.div`
 
 const BodyContainer = styled.div`
   height: 93%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
 
   margin-top: 1%;
 `;

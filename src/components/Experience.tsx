@@ -18,7 +18,7 @@ const Divider = styled.div`
 function Experience() {
   return (
     <Container>
-      <Header3>TECHNICAL EXPERIENCE</Header3>
+      <Header3>PROFESSIONAL EXPERIENCE</Header3>
 
       <Block.Container>
         <Block.Title>ChaosSearch - Engineering Team Lead</Block.Title>
