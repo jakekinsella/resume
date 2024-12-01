@@ -13,7 +13,7 @@ const BodyInner = styled.div`
 `;
 
 const Left = styled.div`
-  width: 72.5%;
+  width: 75%;
   padding-right: 2%;
 
   display: flex;
@@ -24,7 +24,7 @@ const Left = styled.div`
 `;
 
 const Right = styled.div`
-  width: 27.5%;
+  width: 25%;
   padding-left: 2%;
 
   display: flex;
