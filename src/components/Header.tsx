@@ -16,7 +16,7 @@ const HeaderInner = styled.div`
 
 const Left = styled.div`
   height: 100%;
-  width: 56%;
+  width: 50%;
 
   display: flex;
   justify-content: left;
@@ -25,7 +25,7 @@ const Left = styled.div`
 `;
 
 const Right = styled.div`
-  width: 44%;
+  width: 50%;
 
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ function Header() {
       </Left>
 
       <Right>
-        <Header2>SR. SOFTWARE ENGINEER</Header2>
+        <Header2>SENIOR SOFTWARE ENGINEER</Header2>
         <Header2>TEAM LEAD</Header2>
       </Right>
     </HeaderInner>

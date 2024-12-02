@@ -117,19 +117,19 @@ function Other() {
         <b>Expert:</b>
         <br />
 
-        <NestedTextBlock>Scala/Akka, Java, Distributed Systems</NestedTextBlock>
+        <NestedTextBlock>Scala/Akka, Java, Distributed Systems, Databases</NestedTextBlock>
       </TextBlock>
       <TextBlock>
         <b>Proficient:</b>
         <br />
 
-        <NestedTextBlock>Typescript, React, NodeJS, Python, AWS/GCP, Spark</NestedTextBlock>
+        <NestedTextBlock>Typescript, React, NodeJS, Python, AWS/GCP, Docker</NestedTextBlock>
       </TextBlock>
       <TextBlock>
         <b>Familiar:</b>
         <br />
 
-        <NestedTextBlock>OCaml, Clojure, Ruby, Rust, PostgreSQL, Elasticsearch, Kubernetes, Terraform</NestedTextBlock>
+        <NestedTextBlock>OCaml, Clojure, Ruby, Rust, PostgreSQL, Elasticsearch, Spark, Kubernetes, Terraform</NestedTextBlock>
       </TextBlock>
 
       <Spacer />

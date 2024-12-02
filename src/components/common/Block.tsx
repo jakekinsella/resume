@@ -4,6 +4,8 @@ namespace Experience {
   export const Container = styled.div`
     margin-left: 2.5%;
     margin-right: 2.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
   `;
 
   export const Title = styled.h4`

@@ -25,11 +25,12 @@ function Experience() {
         <Block.Subtitle>Boston, MA - December 2019 to present</Block.Subtitle>
 
         <Block.List>
-          <Block.Bullet>Bullet 1.</Block.Bullet>
-          <Block.Bullet>Bullet 2.</Block.Bullet>
-          <Block.Bullet>Bullet 3.</Block.Bullet>
-          <Block.Bullet>Bullet 4.</Block.Bullet>
-          <Block.Bullet>Bullet 5.</Block.Bullet>
+          <Block.Bullet>Responsible for all engineering work for new and existing SaaS/VPC customers.</Block.Bullet>
+          <Block.Bullet>Experience directly managing business customers, handling P1 issues/escalations.</Block.Bullet>
+          <Block.Bullet>Leading a team to support engineering objectives in customer aquisition and retention.</Block.Bullet>
+          <Block.Bullet>Personally handled engineering work for our largest customer, leading to three years of renewals of contracts &gt;$1 million. Doubled daily ingest scale, 100x query volume, while improving query performance + product stability.</Block.Bullet>
+          <Block.Bullet>Built zero-downtime upgrade solution, seamlessly migrating indexing from replica to leader nodes while draining end-user queries.</Block.Bullet>
+          <Block.Bullet>Lead the effort to re-architect VPC solution and build high availability solutions with custom leader election protocol.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
@@ -94,19 +95,17 @@ function Experience() {
         <Block.Title>RSS Feed Reader</Block.Title>
 
         <Block.List>
-          <Block.Bullet>Bullet 1.</Block.Bullet>
-          <Block.Bullet>Bullet 2.</Block.Bullet>
-          <Block.Bullet>Bullet 3.</Block.Bullet>
+          <Block.Bullet>Developed a custom RSS feed reader inspired by Feedly for my personal use.</Block.Bullet>
+          <Block.Bullet>Resilient backend, continuously deployed for years with little maintenance required.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
       <Block.Container>
-        <Block.Title>Budgeting Software</Block.Title>
+        <Block.Title>Budgeting App</Block.Title>
 
         <Block.List>
-          <Block.Bullet>Bullet 1.</Block.Bullet>
-          <Block.Bullet>Bullet 2.</Block.Bullet>
-          <Block.Bullet>Bullet 3.</Block.Bullet>
+          <Block.Bullet>Built custom query engine to materialize raw transactions through user-defined rules into buckets + performing dynamic aggregations.</Block.Bullet>
+          <Block.Bullet>Integrated with Plaid APIs + Clojurescript frontend.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
@@ -114,9 +113,9 @@ function Experience() {
         <Block.Title>J-Suite</Block.Title>
 
         <Block.List>
-          <Block.Bullet>Bullet 1.</Block.Bullet>
-          <Block.Bullet>Bullet 2.</Block.Bullet>
-          <Block.Bullet>Bullet 3.</Block.Bullet>
+          <Block.Bullet>My microservice backend for all my personal applications.</Block.Bullet>
+          <Block.Bullet>Centralizes deployment + configuration in single Kubernetes cluster with authentication + object storage services to speed development.</Block.Bullet>
+          <Block.Bullet>My home for the internet. Hosting my RSS Feed Reader, Notes, Budgeting, and Search applications.</Block.Bullet>
         </Block.List>
       </Block.Container>
     </Container>
