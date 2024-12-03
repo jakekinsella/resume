@@ -9,8 +9,8 @@ import Block from './common/Block';
 const Container = styled.div``;
 
 const Divider = styled.div`
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 
   border-bottom: 1px ${colors.lightBlack} solid;
 `;
@@ -27,10 +27,10 @@ function Experience() {
         <Block.List>
           <Block.Bullet>Responsible for all engineering work for new and existing SaaS/VPC customers.</Block.Bullet>
           <Block.Bullet>Experience directly managing business customers, handling P1 issues/escalations.</Block.Bullet>
-          <Block.Bullet>Leading a team to support engineering objectives in customer aquisition and retention.</Block.Bullet>
-          <Block.Bullet>Personally handled engineering work for our largest customer, leading to three years of renewals of contracts &gt;$1 million. Doubled daily ingest scale, 100x query volume, while improving query performance + product stability.</Block.Bullet>
-          <Block.Bullet>Built zero-downtime upgrade solution, seamlessly migrating indexing from replica to leader nodes while draining end-user queries.</Block.Bullet>
-          <Block.Bullet>Lead the effort to re-architect VPC solution and build high availability solutions with custom leader election protocol.</Block.Bullet>
+          <Block.Bullet>Leading a team to support engineering objectives in customer acquisition and retention.</Block.Bullet>
+          <Block.Bullet>Personally handled engineering work for largest customer, leading to three years of renewals of contracts &gt;$1 million. Doubled daily ingest scale, 100x query volume, while improving query performance + product stability.</Block.Bullet>
+          <Block.Bullet>Built zero-downtime upgrade solution, seamlessly migrating indexing from replica to leader nodes while draining queries.</Block.Bullet>
+          <Block.Bullet>Lead the effort to re-architect VPC solution + build high availability solutions with custom leader election protocol.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
@@ -51,8 +51,8 @@ function Experience() {
 
         <Block.List>
           <Block.Bullet>Founded candidateXYZ to allow municipal candidates to automate all of the legal + administrative of running a campaign.</Block.Bullet>
-          <Block.Bullet>Built a web app designed to remove the bureaucratic barriers of running for local political office.</Block.Bullet>
-          <Block.Bullet>Automated campaign nance laws and made it easy to register to run for office.</Block.Bullet>
+          <Block.Bullet>Built a web app with microservice backend, designed to remove the bureaucratic barriers of running for local political office.</Block.Bullet>
+          <Block.Bullet>Automated campaign finance laws and made it easy to register to run for office.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
@@ -61,7 +61,7 @@ function Experience() {
         <Block.Subtitle>Boston, MA - June 2017 to August 2017</Block.Subtitle>
 
         <Block.List>
-          <Block.Bullet>Created a data annotation platform that would allow Talla to import Slack conversations and rate whether the chatbot's response was correct or not and what it should be.</Block.Bullet>
+          <Block.Bullet>Created a data annotation platform to import Slack conversations and rate whether the chatbot's response was correct or not and what it should be.</Block.Bullet>
           <Block.Bullet>Facilitated data analysts' ability to rapidly iterate on the ML models powering the product.</Block.Bullet>
           <Block.Bullet>Allowed the company to outsource data annotation to gig-workers.</Block.Bullet>
         </Block.List>
@@ -95,17 +95,8 @@ function Experience() {
         <Block.Title>RSS Feed Reader</Block.Title>
 
         <Block.List>
-          <Block.Bullet>Developed a custom RSS feed reader inspired by Feedly for my personal use.</Block.Bullet>
+          <Block.Bullet>Developed a custom RSS feed reader inspired by Feedly for personal use.</Block.Bullet>
           <Block.Bullet>Resilient backend, continuously deployed for years with little maintenance required.</Block.Bullet>
-        </Block.List>
-      </Block.Container>
-
-      <Block.Container>
-        <Block.Title>Budgeting App</Block.Title>
-
-        <Block.List>
-          <Block.Bullet>Built custom query engine to materialize raw transactions through user-defined rules into buckets + performing dynamic aggregations.</Block.Bullet>
-          <Block.Bullet>Integrated with Plaid APIs + Clojurescript frontend.</Block.Bullet>
         </Block.List>
       </Block.Container>
 
@@ -113,9 +104,18 @@ function Experience() {
         <Block.Title>J-Suite</Block.Title>
 
         <Block.List>
-          <Block.Bullet>My microservice backend for all my personal applications.</Block.Bullet>
-          <Block.Bullet>Centralizes deployment + configuration in single Kubernetes cluster with authentication + object storage services to speed development.</Block.Bullet>
+          <Block.Bullet>Microservice backend for all my personal applications.</Block.Bullet>
+          <Block.Bullet>Centralizes deployment + configuration in single Kubernetes cluster with custom authentication + object storage services to optimize development velocity.</Block.Bullet>
           <Block.Bullet>My home for the internet. Hosting my RSS Feed Reader, Notes, Budgeting, and Search applications.</Block.Bullet>
+        </Block.List>
+      </Block.Container>
+
+      <Block.Container>
+        <Block.Title>Budgeting App</Block.Title>
+
+        <Block.List>
+          <Block.Bullet>Built custom query engine to materialize raw transactions through user-defined rules into buckets + performing dynamic aggregations to produce financial visualizations.</Block.Bullet>
+          <Block.Bullet>Integrated with Plaid APIs + Clojurescript frontend.</Block.Bullet>
         </Block.List>
       </Block.Container>
     </Container>

@@ -14,7 +14,7 @@ const BodyInner = styled.div`
 
 const Left = styled.div`
   width: 75%;
-  padding-right: 2%;
+  padding-right: 1.5%;
 
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@ const Left = styled.div`
 
 const Right = styled.div`
   width: 25%;
-  padding-left: 2%;
+  padding-left: 1.5%;
 
   display: flex;
   flex-direction: column;

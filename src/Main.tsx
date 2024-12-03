@@ -10,7 +10,7 @@ import Body from './components/Body';
 const Paper = styled.div`
   width: 8.5in;
   height: 11in;
-  border: 1px solid ${colors.red};
+  // border: 1px solid ${colors.red};
 `;
 
 const Container = styled.div`
@@ -33,7 +33,7 @@ const BodyContainer = styled.div`
   padding-left: 1.5%;
   padding-right: 1.5%;
 
-  margin-top: 1%;
+  margin-top: 1.5%;
 `;
 
 function Main() {
