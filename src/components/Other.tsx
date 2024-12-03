@@ -77,9 +77,15 @@ function Other() {
         </Link>
       </TextBlock>
       <TextBlock>
-        <Link href="https://github.com/TheLocust3">
+        <Link href="https://github.com/jakekinsella">
           <Icon icon="computer" />
-          <LinkInner>github.com/TheLocust3</LinkInner>
+          <LinkInner>github.com/jakekinsella</LinkInner>
+        </Link>
+      </TextBlock>
+      <TextBlock>
+        <Link href="https://www.linkedin.com/in/jake-kinsella/">
+          <Icon icon="computer" />
+          <LinkInner style={{ whiteSpace: "nowrap" }}>linkedin.com/in/jake-kinsella</LinkInner>
         </Link>
       </TextBlock>
       <TextBlock>
