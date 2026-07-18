@@ -37,10 +37,6 @@ const LinkInner = styled.div`
   padding-left: 4px;
 `;
 
-const LinkInnerWrapped = styled.div`
-  padding-left: 4px;
-`;
-
 const NestedTextBlock = styled.div`
   margin-bottom: 2%;
 
@@ -89,7 +85,7 @@ function Other() {
         </Link>
       </TextBlock>
       <TextBlock>
-        <Link href="http://jakekinsella.com">
+        <Link href="https://jakekinsella.com">
           <Icon icon="computer" />
           <LinkInner>jakekinsella.com</LinkInner>
         </Link>
@@ -97,13 +93,7 @@ function Other() {
       <TextBlock>
         <NoLink>
           <Icon icon="map" />
-          <LinkInnerWrapped>34 W Cedar Street, Boston, MA 02108</LinkInnerWrapped>
-        </NoLink>
-      </TextBlock>
-      <TextBlock>
-        <NoLink>
-          <Icon icon="calendar_month" />
-          <LinkInner>Currently not available</LinkInner>
+          <LinkInner>Boston, MA</LinkInner>
         </NoLink>
       </TextBlock>
 
@@ -123,19 +113,19 @@ function Other() {
         <b>Expert:</b>
         <br />
 
-        <NestedTextBlock>Scala/Akka, Java, Distributed Systems, Databases</NestedTextBlock>
+        <NestedTextBlock>AI Agents, LLM Infrastructure, LangChain/LangGraph, TypeScript, Distributed Systems, Scala/Akka</NestedTextBlock>
       </TextBlock>
       <TextBlock>
         <b>Proficient:</b>
         <br />
 
-        <NestedTextBlock>Typescript, React, NodeJS, Python, AWS/GCP, Docker</NestedTextBlock>
+        <NestedTextBlock>Python, PyTorch, Fine-tuning, vLLM, AWS/GCP, Kubernetes</NestedTextBlock>
       </TextBlock>
       <TextBlock>
         <b>Familiar:</b>
         <br />
 
-        <NestedTextBlock>OCaml, Clojure, Ruby, Rust, PostgreSQL, Elasticsearch, Spark, Kubernetes, Terraform</NestedTextBlock>
+        <NestedTextBlock>Java, React, PostgreSQL, Pulumi, Terraform, Spark</NestedTextBlock>
       </TextBlock>
 
       <Spacer />
@@ -143,11 +133,10 @@ function Other() {
       
       <Header3>INTERESTS</Header3>
       <List>
+        <Bullet>Mandarin Chinese</Bullet>
         <Bullet>Running marathons</Bullet>
         <Bullet>Reading classic literature</Bullet>
-        <Bullet>Hiking the NH 48</Bullet>
         <Bullet>Skiing</Bullet>
-        <Bullet>Classical music</Bullet>
       </List>
     </Container>
   );

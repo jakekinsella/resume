@@ -41,8 +41,7 @@ function Header() {
       </Left>
 
       <Right>
-        <Header2>SENIOR SOFTWARE ENGINEER</Header2>
-        <Header2>TEAM LEAD</Header2>
+        <Header2>CO-FOUNDER + LEAD ARCHITECT</Header2>
       </Right>
     </HeaderInner>
   );
